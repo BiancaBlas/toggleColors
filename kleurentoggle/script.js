@@ -4,7 +4,7 @@ const getSidebar = document.querySelector(".colorChanger");
 const getSidebarLi = document.querySelectorAll(".colorChanger li");
 const arrayLength = getSidebarLi.length;
 const body = document.body;
-const div = document.querySelector(".text");
+const div = document.querySelector("#text");
 const navBar = document.querySelector(".navBar");
 const inputButtons = document.querySelectorAll("input");
 
@@ -20,7 +20,6 @@ const removeMenu = function () {
     getSidebar.classList.remove("show");
 };
 menuButton.addEventListener("mouseover", getMenu);
-getSidebar.addEventListener("mouseover", getMenu);
 navBar.addEventListener("mouseleave", removeMenu);
 
 //met toggle krijg je als je 1 kleur klikt en daarna de ander en daarna nog een keer die ander, dat je de vorige kleur terug krijgt
@@ -64,5 +63,3 @@ document.addEventListener("keydown", function (event) {
     removeMenu();
     // ook hier lukt het me niet om dan ook de radiobuttons aan of uit te vinken
 });
-
-// Als gebruiker wil ik het menu langzaam in beeld zien schuiven en weer uit beeld zien schuiven, in plaats van plotseling verschijnen (doe dit met CSS transitions). (de richting maakt niet uit!)
