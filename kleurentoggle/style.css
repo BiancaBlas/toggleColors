@@ -1,0 +1,56 @@
+body {
+    background-color: lightgrey;
+}
+#menu {
+    height: 40px;
+    cursor: pointer;
+}
+nav {
+    width: 150px;
+}
+.colorChanger {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.colorChanger li {
+    width: 125px;
+    border: 2px solid lightgrey;
+    padding: 10px;
+}
+.colorChanger li:hover {
+    opacity: 0.6;
+}
+.redBackgroundColor {
+    background-color: red;
+}
+.orangeBackgroundColor {
+    background-color: orange;
+}
+.yellowBackgroundColor {
+    background-color: yellow;
+}
+.greenBackgroundColor {
+    background-color: green;
+}
+.blueBackgroundColor {
+    background-color: blue;
+}
+.purpleBackgroundColor {
+    background-color: purple;
+}
+.show {
+    visibility: visible;
+}
+div {
+    width: 400px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+.smallerdiv {
+    width: 175px;
+}
