@@ -21,6 +21,7 @@ nav {
     width: 125px;
     border: 2px solid lightgrey;
     padding: 10px;
+    cursor: pointer;
 }
 .colorChanger li:hover {
     opacity: 0.6;
