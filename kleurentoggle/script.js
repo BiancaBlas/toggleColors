@@ -47,7 +47,6 @@ inputButtons.forEach(function (btn) {
 
 document.addEventListener("keydown", function (event) {
     let number = parseInt(event.key) - 1;
-    console.log(number);
     if (Number.isNaN(number) || number > 5 || number < 0) {
         div.textContent = "geen geldige invoer";
         div.removeAttribute("class");
